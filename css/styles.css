@@ -861,7 +861,7 @@ button
     align-items: center;
     justify-content: center;
     position: absolute;
-    right: -40px;
+    right: -20px;
     top: -40px;
 }
 .pp-thumbnail img
@@ -966,7 +966,7 @@ button
 }
 .contact-info-item .social-links a:hover
 {
-    color: var(--white);
+    color: black;
     background-color: var(--main-color);
 }
 
