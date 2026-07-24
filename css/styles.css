@@ -18,6 +18,23 @@
     --wh: rgba(255, 255, 255, 0.1);
     --backdrop-filter-blur: blur(5px);
 }
+<<<<<<< HEAD
+=======
+/* :root {
+  --main-color: #6C9A8B;
+  --blue: #A8DADC;
+  --b: #3B3B3B;
+  --orange: #E9C46A;
+  --green-yellow: #F4F1DE;
+  --p: #E8F3ED;
+  --c: #CAD2C5;
+  --white: #FFFFFF;
+  --w: #DAD7CD;
+  --wh: rgba(255, 255, 255, 0.3);
+  --backdrop-filter-blur: blur(6px);
+} */
+
+>>>>>>> 7c717d3 (update projects)
 
 /* global settings....
 ....................*/
@@ -547,9 +564,23 @@ button
     display: flex;
 }
 
+<<<<<<< HEAD
 .home-img
 {
    height: 300px; 
+=======
+.home-img .box {
+    width: 300px;       /* control size */
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%; /* optional (circle look) */
+}
+
+.home-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;  /* 🔥 MOST IMPORTANT */
+>>>>>>> 7c717d3 (update projects)
 }
 .box
 {
@@ -1060,4 +1091,8 @@ button
     color: #ffffff;
     font-weight: 600;
     
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 7c717d3 (update projects)
