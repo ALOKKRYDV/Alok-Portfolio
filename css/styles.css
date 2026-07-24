@@ -722,6 +722,10 @@ button
     cursor: auto;
 
 }
+.project-link{
+ color: white;
+ text-decoration: underline;
+}
 .about-text .timeline
 {
     position: relative ;
